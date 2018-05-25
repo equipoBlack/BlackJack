@@ -1,7 +1,7 @@
 Feature:
 
 	Como jugador activo
-	Quiero queme asignendos cartas
+	Quiero que me asignen dos cartas
 	Para jugar
 
 Scenario: Que muestre dos cartas de un solo palo
