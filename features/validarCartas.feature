@@ -6,7 +6,7 @@ Feature:
 
 Scenario: Que muestre elresultado 
 	Given Juego iniciado con cartas ya suministradas 
-	Then  debo ver pantalla con "resultado"
+	Then  debo ver pantalla con "suma"
 
 Scenario: Que muestre mensaje gano 
     Given Juego iniciado con cartas ya suministradas

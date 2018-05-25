@@ -12,8 +12,9 @@ end
 
 post '/pedircartas' do
 baraja = BlackJack.new
-session['carta1'] = baraja.generaCarta
-session['carta2'] = baraja.generaCarta
-
+session['carta1'] = baraja.carta1(baraja.generaCarta)[0]
+session['carta2'] = baraja.carta2(baraja.generaCarta)[0]
+session['suma'] = baraja.suma
+session['resultado'] = baraja.resultado
 	erb :jugar
 end
