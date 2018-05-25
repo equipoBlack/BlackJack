@@ -9,5 +9,6 @@ Scenario:  Que muestre mensaje de bienvenida
 	Then debo ver "Bienvenido a Blackjack infantil"
 
 Scenario: Que permita ingresar al juego
-	Given que inicie el juego
-	Then  debo ver pantalla con mensaje "juego iniciado"
+	Given Que inicie el juego
+	When Oprima "Iniciar"
+	Then  debo ver pantalla con mensaje "Juego iniciado"
