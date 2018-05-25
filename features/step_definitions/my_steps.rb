@@ -21,8 +21,8 @@ Given(/^Que se inicio el juego$/) do
  
 end
 
-Then(/^debo ver pantalla con "([^"]*)" "([^"]*)"$/) do |carta1, carta2|
-  expect(page.body).to match /#{carta1} #{carta2}/m
+Then(/^debo ver pantalla con "([^"]*)"$/) do |texto|
+  expect(page.body).to match /#{texto}/m
 end
 
 

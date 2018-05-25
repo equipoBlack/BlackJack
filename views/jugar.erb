@@ -5,10 +5,12 @@
 </head>
 <body><center>
 <h1>Juego iniciado</h1>
-<form method="POST" action="/jugar">
+<form method="POST" action="/pedircartas">
 	<input type="submit" value="Solicitar">
 </form>
-A K
+cartas:
+<%=session['carta1'] %>
+<%=session['carta2'] %>
 </center>
 </body>
 </html>
